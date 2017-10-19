@@ -1,9 +1,0 @@
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.Frm1.resources
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.Resources.resources
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.vbproj.GenerateResource.Cache
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\bin\Debug\Me.TrafficSignal.exe
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\bin\Debug\Me.TrafficSignal.pdb
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\bin\Debug\Me.TrafficSignal.xml
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.exe
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.xml
-D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.TrafficSignal\Me.TrafficSignal\obj\x86\Debug\Me.TrafficSignal.pdb

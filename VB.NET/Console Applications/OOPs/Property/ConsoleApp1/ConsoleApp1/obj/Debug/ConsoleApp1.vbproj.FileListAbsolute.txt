@@ -1,4 +1,0 @@
-D:\Nikhil\Programming\VB.NET\Console Applications\OOPs\Property\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbprojResolveAssemblyReference.cache
-D:\Nikhil\Programming\VB.NET\Console Applications\OOPs\Property\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.Resources.resources
-D:\Nikhil\Programming\VB.NET\Console Applications\OOPs\Property\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbproj.GenerateResource.Cache
-D:\Nikhil\Programming\VB.NET\Console Applications\OOPs\Property\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.vbproj.CoreCompileInputs.cache

@@ -1,8 +1,0 @@
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\bin\Debug\ConsoleApplication2.exe
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\bin\Debug\ConsoleApplication2.pdb
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\bin\Debug\ConsoleApplication2.xml
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.Resources.resources
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.vbproj.GenerateResource.Cache
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.exe
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.xml
-C:\Users\Nikhil\AppData\Local\Temporary Projects\ConsoleApplication2\obj\x86\Debug\ConsoleApplication2.pdb
