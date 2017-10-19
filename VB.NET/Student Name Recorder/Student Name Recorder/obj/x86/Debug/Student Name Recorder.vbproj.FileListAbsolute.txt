@@ -1,0 +1,18 @@
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\obj\x86\Debug\Student_Name_Recorder.Resources.resources
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\obj\x86\Debug\Student Name Recorder.vbproj.GenerateResource.Cache
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\bin\Debug\Student Name Recorder.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\bin\Debug\Student Name Recorder.pdb
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\bin\Debug\Student Name Recorder.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\obj\x86\Debug\Student Name Recorder.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\obj\x86\Debug\Student Name Recorder.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Student Name Recorder\obj\x86\Debug\Student Name Recorder.pdb
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.exe
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.xml
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.pdb
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\bin\Debug\Student Name Recorder.exe
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\bin\Debug\Student Name Recorder.pdb
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\bin\Debug\Student Name Recorder.xml
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student_Name_Recorder.Resources.resources
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.vbprojResolveAssemblyReference.cache
+D:\Nikhil\Programming\VB.NET\Student Name Recorder\Student Name Recorder\obj\x86\Debug\Student Name Recorder.vbproj.CoreCompileInputs.cache

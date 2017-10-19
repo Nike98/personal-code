@@ -1,0 +1,16 @@
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\obj\x86\Debug\MaxandMin.Resources.resources
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\obj\x86\Debug\MaxandMin.vbproj.GenerateResource.Cache
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\bin\Debug\MaxandMin.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\bin\Debug\MaxandMin.pdb
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\bin\Debug\MaxandMin.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\obj\x86\Debug\MaxandMin.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\obj\x86\Debug\MaxandMin.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\MaxandMin\obj\x86\Debug\MaxandMin.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\obj\x86\Debug\MaxandMin.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\obj\x86\Debug\MaxandMin.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\obj\x86\Debug\MaxandMin.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\bin\Debug\MaxandMin.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\bin\Debug\MaxandMin.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\bin\Debug\MaxandMin.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\obj\x86\Debug\MaxandMin.Resources.resources
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\MaxandMin\MaxandMin\obj\x86\Debug\MaxandMin.vbproj.GenerateResource.Cache

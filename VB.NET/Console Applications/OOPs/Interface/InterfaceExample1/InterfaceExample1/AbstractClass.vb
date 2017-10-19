@@ -1,0 +1,3 @@
+﻿Module AbstractClass
+
+End Module

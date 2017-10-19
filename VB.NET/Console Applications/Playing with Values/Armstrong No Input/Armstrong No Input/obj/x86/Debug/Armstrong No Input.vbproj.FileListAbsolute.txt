@@ -1,0 +1,19 @@
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\obj\x86\Debug\Armstrong_No_Input.Resources.resources
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\obj\x86\Debug\Armstrong No Input.vbproj.GenerateResource.Cache
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\bin\Debug\Armstrong No Input.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\bin\Debug\Armstrong No Input.pdb
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\bin\Debug\Armstrong No Input.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\obj\x86\Debug\Armstrong No Input.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\obj\x86\Debug\Armstrong No Input.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Armstrong No Input\obj\x86\Debug\Armstrong No Input.pdb
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.exe
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.xml
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.pdb
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\bin\Debug\Armstrong No Input.exe
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\bin\Debug\Armstrong No Input.pdb
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\bin\Debug\Armstrong No Input.xml
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong_No_Input.Resources.resources
+D:\Nikhil\Programming\VB.NET\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\Armstrong No Input\Armstrong No Input\obj\x86\Debug\Armstrong No Input.pdb

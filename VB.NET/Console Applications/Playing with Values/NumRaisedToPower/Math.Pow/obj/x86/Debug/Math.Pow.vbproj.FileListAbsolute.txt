@@ -1,0 +1,16 @@
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\obj\x86\Debug\Math.Pow.Resources.resources
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\obj\x86\Debug\Math.Pow.vbproj.GenerateResource.Cache
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\bin\Debug\Math.Pow.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\bin\Debug\Math.Pow.pdb
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\bin\Debug\Math.Pow.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\obj\x86\Debug\Math.Pow.exe
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\obj\x86\Debug\Math.Pow.xml
+C:\Users\Nikhil\AppData\Local\Temporary Projects\Math.Pow\obj\x86\Debug\Math.Pow.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\obj\x86\Debug\Math.Pow.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\obj\x86\Debug\Math.Pow.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\obj\x86\Debug\Math.Pow.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\bin\Debug\Math.Pow.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\bin\Debug\Math.Pow.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\bin\Debug\Math.Pow.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\obj\x86\Debug\Math.Pow.Resources.resources
+D:\Nikhil\Programming\VB.NET\Console Applications\Playing with Values\NumRaisedToPower\Math.Pow\obj\x86\Debug\Math.Pow.vbproj.GenerateResource.Cache

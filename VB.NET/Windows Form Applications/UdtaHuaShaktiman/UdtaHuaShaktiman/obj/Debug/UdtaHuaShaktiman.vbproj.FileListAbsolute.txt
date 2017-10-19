@@ -1,0 +1,12 @@
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\bin\Debug\UdtaHuaShaktiman.exe.config
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\bin\Debug\UdtaHuaShaktiman.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\bin\Debug\UdtaHuaShaktiman.pdb
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\bin\Debug\UdtaHuaShaktiman.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.vbprojResolveAssemblyReference.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.Frm1.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.Resources.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.vbproj.CoreCompileInputs.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\UdtaHuaShaktiman\UdtaHuaShaktiman\obj\Debug\UdtaHuaShaktiman.pdb

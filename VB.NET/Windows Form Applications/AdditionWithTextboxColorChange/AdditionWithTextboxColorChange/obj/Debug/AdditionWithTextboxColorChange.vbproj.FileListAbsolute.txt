@@ -1,0 +1,12 @@
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\bin\Debug\AdditionWithTextboxColorChange.exe.config
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\bin\Debug\AdditionWithTextboxColorChange.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\bin\Debug\AdditionWithTextboxColorChange.pdb
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\bin\Debug\AdditionWithTextboxColorChange.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.vbprojResolveAssemblyReference.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.Form1.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.Resources.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.vbproj.CoreCompileInputs.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\AdditionWithTextboxColorChange\AdditionWithTextboxColorChange\obj\Debug\AdditionWithTextboxColorChange.pdb
