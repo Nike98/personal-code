@@ -1,0 +1,12 @@
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\bin\Debug\Me.InheritedForm.exe.config
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\bin\Debug\Me.InheritedForm.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\bin\Debug\Me.InheritedForm.pdb
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\bin\Debug\Me.InheritedForm.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.vbprojResolveAssemblyReference.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.Form1.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.Resources.resources
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.vbproj.CoreCompileInputs.cache
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.exe
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.xml
+D:\Nikhil\Programming\VB.NET\Windows Form Applications\Me.InheritedForm\Me.InheritedForm\obj\Debug\Me.InheritedForm.pdb

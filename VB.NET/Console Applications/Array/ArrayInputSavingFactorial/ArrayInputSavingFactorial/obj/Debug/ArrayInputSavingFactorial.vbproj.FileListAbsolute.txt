@@ -1,0 +1,11 @@
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.vbprojResolveAssemblyReference.cache
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.Resources.resources
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.vbproj.GenerateResource.Cache
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.vbproj.CoreCompileInputs.cache
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\bin\Debug\ArrayInputSavingFactorial.exe.config
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\bin\Debug\ArrayInputSavingFactorial.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\bin\Debug\ArrayInputSavingFactorial.pdb
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\bin\Debug\ArrayInputSavingFactorial.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.exe
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.xml
+D:\Nikhil\Programming\VB.NET\Console Applications\Array\ArrayInputSavingFactorial\ArrayInputSavingFactorial\obj\Debug\ArrayInputSavingFactorial.pdb
