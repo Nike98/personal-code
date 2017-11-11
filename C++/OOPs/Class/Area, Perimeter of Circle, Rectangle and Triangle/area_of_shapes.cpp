@@ -63,7 +63,7 @@ public:
         cout << "\n\n";
 
         cout << " ***** TRIANGLE *****" << "\n\n";
-        areaTriangle = (0.5 * base) / height;                   // Formula for the Area of the Triangle
+        areaTriangle = 0.5 * base * height;                   // Formula for the Area of the Triangle
         cout << " The Area of the Triangle = " << areaTriangle << endl;
         cout << "\n\n";
     }
