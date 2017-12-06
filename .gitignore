@@ -39,6 +39,10 @@ bld/
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+# Extra Directory Created by Eclipse
+.settings/
+.bin/
+
 # Package Files #
 *.jar
 *.war
