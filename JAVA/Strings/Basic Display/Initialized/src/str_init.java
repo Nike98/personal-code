@@ -2,10 +2,10 @@
  * ############################################################################
  * ############################################################################
  * 
- * 			This program here is an implementation to use the String 
- * 			object available in JAVA in 2 ways:
- * 					1. To initialize it directly.
- * 					2. To create a new String object. 
+ * 	     This program here is an implementation to use the String 
+ *           object available in JAVA in 2 ways:
+ *                 1. To initialize it directly.
+ * 		   2. To create a new String object. 
  * 
  * ############################################################################
  * ############################################################################
