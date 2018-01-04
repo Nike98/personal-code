@@ -2,7 +2,7 @@
  * ############################################################################
  * ############################################################################
  * 
- * 				This program demonstrates the use of the
+ * 			This program demonstrates the use of the
  * 		  toUpperCase and toLowerCase string functions in JAVA.
  * 
  * ############################################################################
