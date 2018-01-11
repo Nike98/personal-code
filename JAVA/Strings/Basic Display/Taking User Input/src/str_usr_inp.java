@@ -2,12 +2,12 @@
  * ############################################################################
  * ############################################################################
  * 
- * 				This program is a basic representation of how to 
- * 			   input a string from the user, make a String object,
- * 				store the string in it and display it to the user.
+ * 	        This program is a basic representation of how to 
+ *             input a string from the user, make a String object,
+ * 		store the string in it and display it to the user.
  * 
- * 				To scan and store the input taken from the user we
- * 						will import a Scanner namespace.
+ * 		To scan and store the input taken from the user we
+ * 		         will import a Scanner namespace.
  * 
  * ############################################################################
  * ############################################################################

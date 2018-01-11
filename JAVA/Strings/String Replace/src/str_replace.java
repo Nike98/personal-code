@@ -2,11 +2,11 @@
  * ############################################################################
  * ############################################################################
  * 
- * 				This program here is to demonstrate the use 
- * 					of the string replace() function.
+ * 		    This program here is to demonstrate the use 
+ *     		          of the string replace() function.
  * 
- * 			The replace() function replaces the specifies characters 
- * 				in the string with the other specified characters. 
+ * 	      The replace() function replaces the specifies characters 
+ * 	         in the string with the other specified characters. 
  * 
  * ############################################################################
  * ############################################################################
