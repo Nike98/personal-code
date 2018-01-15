@@ -26,7 +26,7 @@ public class identifier_func {
 		 */
 		
 		System.out.print(" Enter the String : ");
-		usr_input = inp.nextLine();						// Converting the input to lower case for lower error chances
+		usr_input = inp.nextLine();
 		
 		for ( int i = 0 ; i < usr_input.length() ; i++ ) {
 			char ch = usr_input.charAt(i);							// Picking up each character from the string to be checked
