@@ -16,7 +16,7 @@ public class primeNoCheck {
 			}
 		}
 		
-		if ( flag == 0 )
+		if ( flag == 1 )
 			System.out.println(" It is a Prime Number.");
 		else
 			System.out.println(" It is Not a Prime Number.");
