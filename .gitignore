@@ -8,7 +8,6 @@
 *.depend
 *.userosscache
 *.sln.docstates
-main.cpp
 
 # Visual Studio 2015 cache/options directory
 .vs/
