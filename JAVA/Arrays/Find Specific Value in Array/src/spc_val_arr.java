@@ -29,7 +29,7 @@ public class spc_val_arr {
 		boolean flag = false;
 		
 		for ( int check : arr ) {
-			if ( value == check)
+			if ( check == value )
 				flag = true;
 			else
 				flag = false;
