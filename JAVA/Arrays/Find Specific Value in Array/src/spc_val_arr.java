@@ -20,6 +20,8 @@ public class spc_val_arr {
 		
 		int arr[] = new int[size];
 		
+		System.out.println("\n Enter the values in the Array : \n");
+		
 		for ( int i = 0 ; i < size ; i++ ) {
 			arr[i] = inp.nextInt();
 		}

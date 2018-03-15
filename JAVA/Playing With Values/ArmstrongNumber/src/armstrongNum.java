@@ -18,7 +18,7 @@ public class armstrongNum {
 		}
 		
 		if ( sum == og_num ) {
-			System.out.println(" It is an Armstring Number.");
+			System.out.println(" It is an Armstrong Number.");
 		}
 		else {
 			System.out.println(" It is Not an Armstrong Number.");

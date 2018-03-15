@@ -31,8 +31,6 @@ public class largest {
 		}
 		else
 			System.out.println("\n All the Inputs are EQUAL.");
-		
-		
 	}
 	
 	public static void largest_func (int a, int b, int c) {
