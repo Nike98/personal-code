@@ -11,7 +11,7 @@
  DECLARE
  
 	str varchar2(50) := '&str';
-	vow_count varchar2(10) := '';			-- To store the count of the vowels
+	vow_count number(10) := 0;			-- To store the count of the vowels
 	c char;								-- To check the vowels in the string
  
  BEGIN
@@ -23,7 +23,7 @@
 		
 		if c in ('a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U') then
 		
-			vow_count := c;
+			vow_count := vow_count + 1;
 		
 		end if;
 	
