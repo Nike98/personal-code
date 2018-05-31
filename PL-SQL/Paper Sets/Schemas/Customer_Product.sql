@@ -72,13 +72,3 @@
  
  COMMIT;
  
- /*
-  * 1.
-  * 	a) select * from product where prod_price = (select min(prod_price) from product);
-  *
-  * 	b) select cust_name from customer
-  * 	   where to_char(date_of_purchase, 'yyyy') = '2010'
-  * 	   and prod_id in (select prod_id from product where prod_name = 'LAPTOP');
-  *
-  * 	d) 
-  */

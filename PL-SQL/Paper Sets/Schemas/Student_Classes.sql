@@ -62,7 +62,3 @@
  
  commit;
  
- 
- 
- 
- /* select emp_name, emp_join_date from employee where (emp_join_date < (select emp_join_date from employee where emp_name = 'IBSAR')); */
