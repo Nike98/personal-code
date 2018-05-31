@@ -13,9 +13,14 @@
 	CURSOR cur_emp							-- Declaring the Cursor to be used
 	IS 
 		-- DDL Query to be used
-		select max(emp_salary) as Max, min(emp_salary) as Min 
+		--select max(emp_salary) as Max, min(emp_salary) as Min 
+		--from employee
+		--where emp_salary = (select emp_id, emp_name, emp_city, emp_job, emp_salary, emp_join_date, emp_commission, emp_dept_no from employee);
+		select emp_id, emp_name, emp_city, emp_job, emp_salary, emp_join_date, emp_commission, emp_dept_no
 		from employee
-		where (select emp_id, emp_name, emp_city, emp_job, emp_salary, emp_join_date, emp_commission, emp_dept_no from employee);
+		where emp_salary in (select min(emp_salary) from employee)
+		or
+		emp_salary in (select max (emp_salary) from employee);
 		
 	id employee.emp_id%TYPE;						-- Local Variable to store the ID of the Employee
 	name employee.emp_name%TYPE;					-- Local Variable to store the Name of the Employee
