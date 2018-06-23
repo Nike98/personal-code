@@ -51,9 +51,11 @@ bld/
 *.rar
 
 # ASP.NET gitignore Files
+
 ###################
 # compiled source #
 ###################
+
 *.com
 *.class
 *.dll
