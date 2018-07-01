@@ -33,8 +33,8 @@ namespace UpperToLower
             }
             else
             {
-                Console.WriteLine("\n It is an Lower Case Character.");
-                Console.WriteLine("\n The Character in Upper Case => " + char.ToUpper(ch));
+                Console.WriteLine("\n It is a Lower Case Character.");
+                Console.WriteLine(" The Character in Upper Case => " + char.ToUpper(ch));
             }
 
             Console.ReadLine();
