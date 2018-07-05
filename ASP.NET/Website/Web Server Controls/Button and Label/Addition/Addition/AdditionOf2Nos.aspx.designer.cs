@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace EnterNameAndDisplay {
+namespace Addition {
     
     
-    public partial class WebForm1 {
+    public partial class AdditionOf2Nos {
         
         /// <summary>
         /// form1 control.
@@ -22,15 +22,6 @@ namespace EnterNameAndDisplay {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lblWelcome control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblWelcome;
-        
-        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -40,13 +31,31 @@ namespace EnterNameAndDisplay {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txbName control.
+        /// txb1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txbName;
+        protected global::System.Web.UI.WebControls.TextBox txb1;
+        
+        /// <summary>
+        /// Label2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label2;
+        
+        /// <summary>
+        /// txb2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txb2;
         
         /// <summary>
         /// btnClick control.
@@ -58,12 +67,21 @@ namespace EnterNameAndDisplay {
         protected global::System.Web.UI.WebControls.Button btnClick;
         
         /// <summary>
-        /// lblDisplay control.
+        /// Label3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblDisplay;
+        protected global::System.Web.UI.WebControls.Label Label3;
+        
+        /// <summary>
+        /// lblAns control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblAns;
     }
 }

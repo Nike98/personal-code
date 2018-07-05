@@ -13,5 +13,15 @@ namespace Addition
         {
 
         }
+
+        protected void btnClick_Click(object sender, EventArgs e)
+        {
+            int num1 = Convert.ToInt32(txb1.Text);
+            int num2 = Convert.ToInt32(txb2.Text);
+
+            int ans = num1 + num2;
+
+            lblAns.Text = Convert.ToString(ans);
+        }
     }
 }

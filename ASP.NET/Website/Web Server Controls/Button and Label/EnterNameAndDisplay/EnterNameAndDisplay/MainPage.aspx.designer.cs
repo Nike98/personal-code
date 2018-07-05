@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Addition {
+namespace EnterNameAndDisplay {
     
     
-    public partial class AdditionOf2Nos {
+    public partial class WebForm1 {
         
         /// <summary>
         /// form1 control.
@@ -22,6 +22,15 @@ namespace Addition {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
+        /// lblWelcome control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblWelcome;
+        
+        /// <summary>
         /// Label1 control.
         /// </summary>
         /// <remarks>
@@ -31,39 +40,39 @@ namespace Addition {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txb1 control.
+        /// txbName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txb1;
+        protected global::System.Web.UI.WebControls.TextBox txbName;
         
         /// <summary>
-        /// Label2 control.
+        /// btnClick control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Button btnClick;
         
         /// <summary>
-        /// txb2 control.
+        /// lblDisplay control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txb2;
+        protected global::System.Web.UI.WebControls.Label lblDisplay;
         
         /// <summary>
-        /// Label3 control.
+        /// hplink1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label3;
+        protected global::System.Web.UI.WebControls.HyperLink hplink1;
     }
 }

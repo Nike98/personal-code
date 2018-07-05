@@ -11,6 +11,8 @@ namespace EnterNameAndDisplay
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            hplink1.Text = "This is a HyperLink";
+            hplink1.NavigateUrl = "https://msdn.microsoft.com/en-us/library/e75sxasw(v=vs.85).aspx";
         }
 
         protected void btnClick_Click(object sender, EventArgs e)

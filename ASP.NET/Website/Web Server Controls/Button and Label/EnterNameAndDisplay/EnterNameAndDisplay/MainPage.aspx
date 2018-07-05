@@ -27,9 +27,15 @@
         <br /> <br />
 
         <span>
-
+            <asp:Label ID="lblDisplay" runat="server"></asp:Label>
         </span>
-        <asp:Label ID="lblDisplay" runat="server"></asp:Label>
+
+        <br /> <br />
+
+        <span>
+            <asp:HyperLink ID="hplink1" runat="server"></asp:HyperLink>
+        </span>
+        
     </form>
 </body>
 </html>

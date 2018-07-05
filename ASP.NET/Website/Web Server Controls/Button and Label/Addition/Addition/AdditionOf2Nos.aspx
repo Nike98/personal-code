@@ -17,13 +17,23 @@
 
         <div>
             <asp:Label ID="Label2" runat="server" Text="Enter the 2nd Number"></asp:Label>
-            <asp:TextBox ID="txb2" runat="server" style="margin-left: 29px"></asp:TextBox>
+            <asp:TextBox ID="txb2" runat="server" style="margin-left: 25px"></asp:TextBox>
+        </div>
+
+        <br /> <br />
+
+        <div>
+            <asp:Button ID ="btnClick" runat="server" Text="ADD" Width="90px" style="margin-left: 170px" OnClick="btnClick_Click"/>
         </div>
 
         <br /> <br />
 
         <span>
             <asp:Label ID="Label3" runat="server" Text="The Addition : "></asp:Label>
+        </span>
+
+        <span>
+            <asp:Label ID="lblAns" runat="server"></asp:Label>
         </span>
         
     </form>
