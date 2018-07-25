@@ -5,6 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
+    <link rel="stylesheet" href="Stylesheet/MainStyleSheet.css" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -14,19 +15,11 @@
     </div>
 
     <form id="form1" runat="server">
-        <!--<asp:Menu ID="MainMenu" runat="server" Orientation="Horizontal" Font-Bold="true" Font-Size="25px">
-            <Items>
-                <asp:MenuItem Text="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>
-                <asp:MenuItem Text="Services" NavigateUrl="~/Services.aspx"></asp:MenuItem>
-                <asp:MenuItem Text="About Us" NavigateUrl="~/About.aspx"></asp:MenuItem>
-                <asp:MenuItem Text="Contact Us" NavigateUrl="~/ContactUs.aspx"></asp:MenuItem>
-            </Items>
-        </asp:Menu>-->
 
         <table style="border-style: none; border-color: inherit; border-width: inherit; height: 100%; width: 400px;">
             <tr>
                 <td style="width: 400px; vertical-align: top">
-                    <asp:Menu ID="MenuItems" Orientation="Horizontal" ItemWrap="true" runat="server">
+                    <asp:Menu ID="MenuItems" Orientation="Horizontal" runat="server" CssClass="nav">
                         <StaticMenuItemStyle VerticalPadding="10" />
                             <Items>
                                 <asp:MenuItem Text="Home" NavigateUrl="~/Home.aspx"></asp:MenuItem>

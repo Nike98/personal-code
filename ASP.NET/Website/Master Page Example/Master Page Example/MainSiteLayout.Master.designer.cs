@@ -31,15 +31,6 @@ namespace Master_Page_Example {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// MainMenu control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Menu MainMenu;
-        
-        /// <summary>
         /// MenuItems control.
         /// </summary>
         /// <remarks>
