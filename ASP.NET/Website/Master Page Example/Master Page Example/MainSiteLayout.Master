@@ -16,7 +16,7 @@
 
     <form id="form1" runat="server">
 
-        <table style="border-style: none; border-color: inherit; border-width: inherit; height: 100%; width: 400px;">
+        <table style="border-style: none; border-color: inherit; border-width: 1em; height: 100%; width: 400px;">
             <tr>
                 <td style="width: 400px; vertical-align: top">
                     <asp:Menu ID="MenuItems" Orientation="Horizontal" runat="server" CssClass="nav">
