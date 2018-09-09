@@ -16,21 +16,22 @@ namespace Custom_Validator
 
         protected void btnValidate_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         protected void UserIdCustomValidate(object source, ServerValidateEventArgs args)
         {
+
             string str = args.Value;
             args.IsValid = false;
-
-            // Checking if the Lenght of the input is greater than 5 and less than 26 characters
-            if (str.Length > 6 || str.Length < 25)
+            //checking for input length greater than 6 and less than 25 characters
+            if (str.Length < 6 || str.Length > 25)
+            {
+                UidCustomValidate.ErrorMessage = " length kam hai ";
                 return;
-
-            // Checking if the input has at least one Capital Letter
+            }
+            //checking for a atleast a single capital letter
             bool capital = false;
-
             foreach (char ch in str)
             {
                 if (ch >= 'A' && ch <= 'Z')
@@ -38,14 +39,14 @@ namespace Custom_Validator
                     capital = true;
                     break;
                 }
-
-                if (!capital)
-                    return;
             }
-
-            // Checking if the input has at least one Lower Letter
+            if (!capital)
+            {
+                UidCustomValidate.ErrorMessage = " cap nahi hai ";
+                return;
+            }
+            //checking for a atleast a single lower letter
             bool lower = false;
-
             foreach (char ch in str)
             {
                 if (ch >= 'a' && ch <= 'z')
@@ -53,14 +54,13 @@ namespace Custom_Validator
                     lower = true;
                     break;
                 }
-
-                if (!lower)
-                    return;
             }
-
-            // Checking if the input has at least one Digit
+            if (!lower)
+            {
+                UidCustomValidate.ErrorMessage = " lower nahi hai ";
+                return;
+            }
             bool digit = false;
-
             foreach (char ch in str)
             {
                 if (ch >= '0' && ch <= '9')
@@ -68,11 +68,12 @@ namespace Custom_Validator
                     digit = true;
                     break;
                 }
-
-                if (!digit)
-                    return;
             }
-
+            if (!digit)
+            {
+                UidCustomValidate.ErrorMessage = " digit nahi hai ";
+                return;
+            }
             args.IsValid = true;
         }
     }

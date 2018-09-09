@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <!-- URL for the Image -->
+    <ImageUrl>~/Images/img1.jpg</ImageUrl>
+    <!-- Url to Navigate the user to -->
+    <NavigateUrl>https://github.com/Nike98/personal-code</NavigateUrl>
+    <!-- Alternate text for the image -->
+    <AlternateText>Visit my Github</AlternateText>
+    <!-- The relative number of times this ad should 
+          appear compared to the others -->
+    <Impressions>50</Impressions>
+    <!-- Keyword used for filtering -->
+    <Keyword>GitCoding</Keyword>
+  </Ad>
+  <Ad>
+    <!-- URL for the Image -->
+    <ImageUrl>~/Images/img2.jpg</ImageUrl>
+    <!-- Url to Navigate the user to -->
+    <NavigateUrl>https://github.com/Nike98/personal-code</NavigateUrl>
+    <!-- Alternate text for the image -->
+    <AlternateText>Visit my Github</AlternateText>
+    <!-- The relative number of times this ad should 
+          appear compared to the others -->
+    <Impressions>10</Impressions>
+    <!-- Keyword used for filtering -->
+    <Keyword>GitCoding</Keyword>
+  </Ad>
+  <Ad>
+    <!-- URL for the Image -->
+    <ImageUrl>~/Images/img3.png</ImageUrl>
+    <!-- Url to Navigate the user to -->
+    <NavigateUrl>https://github.com/Nike98/personal-code</NavigateUrl>
+    <!-- Alternate text for the image -->
+    <AlternateText>Visit my Github</AlternateText>
+    <!-- The relative number of times this ad should 
+          appear compared to the others -->
+    <Impressions>100</Impressions>
+    <!-- Keyword used for filtering -->
+    <Keyword>GitCoding</Keyword>
+  </Ad>
+</Advertisements>
