@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DCCEA200-334F-4C25-B9EF-A8888808E45E}</ProjectGuid>
+    <ProjectGuid>{A231DF4E-CE15-40CE-8916-AAD239575143}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataBase_Example_1</RootNamespace>
-    <AssemblyName>DataBase Example 1</AssemblyName>
+    <RootNamespace>Rectangle_Square_Triangle_Shape_Area_OOP</RootNamespace>
+    <AssemblyName>Rectangle Square Triangle Shape Area OOP</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,14 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\MainDB.mdf" />
-    <Content Include="App_Data\MainDB_log.ldf">
-      <DependentUpon>MainDB.mdf</DependentUpon>
-    </Content>
     <Content Include="Default.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="RectangleSite.aspx" />
+    <Content Include="SquareSite.aspx" />
+    <Content Include="TriangleSite.aspx" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -85,6 +82,28 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="App_Code\Shape.cs" />
+    <Compile Include="RectangleSite.aspx.cs">
+      <DependentUpon>RectangleSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RectangleSite.aspx.designer.cs">
+      <DependentUpon>RectangleSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SquareSite.aspx.cs">
+      <DependentUpon>SquareSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SquareSite.aspx.designer.cs">
+      <DependentUpon>SquareSite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TriangleSite.aspx.cs">
+      <DependentUpon>TriangleSite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TriangleSite.aspx.designer.cs">
+      <DependentUpon>TriangleSite.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -95,7 +114,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -109,9 +127,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55500</DevelopmentServerPort>
+          <DevelopmentServerPort>52068</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55500/</IISUrl>
+          <IISUrl>http://localhost:52068/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

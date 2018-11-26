@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{DCCEA200-334F-4C25-B9EF-A8888808E45E}</ProjectGuid>
+    <ProjectGuid>{7654A122-A2BE-4C31-B765-7613FDFA7486}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DataBase_Example_1</RootNamespace>
-    <AssemblyName>DataBase Example 1</AssemblyName>
+    <RootNamespace>Data_in_HTML_Table_With_Options</RootNamespace>
+    <AssemblyName>Data in HTML Table With Options</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -67,14 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\MainDB.mdf" />
-    <Content Include="App_Data\MainDB_log.ldf">
-      <DependentUpon>MainDB.mdf</DependentUpon>
+    <Content Include="App_Data\DataWithQueries.mdf" />
+    <Content Include="App_Data\DataWithQueries_log.ldf">
+      <DependentUpon>DataWithQueries.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
-    <Content Include="Web.config">
-      <SubType>Designer</SubType>
-    </Content>
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -95,7 +93,6 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -109,9 +106,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55500</DevelopmentServerPort>
+          <DevelopmentServerPort>64060</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55500/</IISUrl>
+          <IISUrl>http://localhost:64060/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
