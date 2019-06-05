@@ -12,6 +12,10 @@
 # Visual Studio 2015 cache/options directory
 .vs/
 
+# PyCharm specific user files
+/.idea
+/venv
+
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
