@@ -13,8 +13,8 @@
 .vs/
 
 # PyCharm specific user files
-/.idea
-/venv
+.idea/
+venv/
 
 # Build results
 [Dd]ebug/
