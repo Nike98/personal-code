@@ -12,6 +12,10 @@
 # Visual Studio 2015 cache/options directory
 .vs/
 
+# Eclipse specific user files
+.settings/
+.bin/
+
 # PyCharm specific user files
 .idea/
 venv/
@@ -41,10 +45,6 @@ bld/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
-
-# Extra Directory Created by Eclipse
-.settings/
-.bin/
 
 # Package Files #
 *.jar
