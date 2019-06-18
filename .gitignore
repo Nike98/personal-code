@@ -12,11 +12,14 @@
 # Visual Studio 2015 cache/options directory
 .vs/
 
-# Eclipse specific user files
+# Visual Studio Code user specific files
+.vscode/
+
+# Eclipse user specific files
 .settings/
 .bin/
 
-# PyCharm specific user files
+# PyCharm user specific files
 .idea/
 venv/
 
