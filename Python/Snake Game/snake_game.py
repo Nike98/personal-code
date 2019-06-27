@@ -1,12 +1,3 @@
-# """
-#
-#     Insert comments
-#
-#     -> Also insert comments where the Snake is moving LRUD
-#
-# """
-#
-
 import random
 import pygame
 import tkinter as tk
