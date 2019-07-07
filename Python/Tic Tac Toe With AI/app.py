@@ -1,5 +1,14 @@
 # Tic tac Toe Game with AI in Python
 
+"""
+
+    A Simple Tic Tac Toe Game to be played with the AI.
+
+    In tis Game the User is given the symbol of X,
+    and the AI is given the O symbol.
+
+"""
+
 board = [' ' for x in range(10)]
 
 
