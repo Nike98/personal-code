@@ -56,8 +56,8 @@ public class trans_matrix {
 		// Displaying the Transposed Matrix
 		System.out.println("\n The Transposed Matrix is : \n");
 		
-		for ( int i = 0 ; i < col ; i++ ) {
-			for ( int j = 0 ; j < row ; j++ ) {
+		for ( int i = 0 ; i < row ; i++ ) {
+			for ( int j = 0 ; j < col ; j++ ) {
 				System.out.print(" " + transpose[i][j]);
 			}
 			System.out.println();

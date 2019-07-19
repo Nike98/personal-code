@@ -42,7 +42,7 @@ public class spc_index_arr {
 		if ( !flag ) 
 			System.out.println("\n The Array value entered does not Exist so does the Index Value.");
 		else
-			System.out.println("\n The Array Value enetered is present and the Index value = " + index_val);
+			System.out.println("\n The Array Value entered is present and the Index value = " + index_val);
 	}
 
 }
