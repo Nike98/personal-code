@@ -1,0 +1,126 @@
+var zodiacSigns = {
+    'capricorn':'Козерог',
+    'aquarius':'Водолей',
+    'pisces':'Рыбы',
+    'aries':'Овен',
+    'taurus':'Телец',
+    'gemini':'Близнецы',
+    'cancer':'Рак',
+    'leo':'Лев',
+    'virgo':'Девы',
+    'libra'
+    'scorpio'
+    'sagittarius'
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  switch(choice)
+  {
+      case 1:
+              if ((month == "january" && day <= 19) || (month == "december" && day >=22))
+              {
+                //Capricorn
+              }
+
+              break;
+
+      case 2:
+              if ((month == 1 && day >= 21) || (month == 2 && day <= 18))
+              {
+                  //Taurus
+              }
+
+              break;
+
+      case 3:
+              if ((month == 2 && day >= 19) || (month == 3 && day <= 20))
+              {
+                  //Gemini
+              }
+
+              break;
+
+      case 4:
+              if ((month == 3 && day >= 21) || (month == 4 && day <= 20))
+              {
+                  //Cancer
+              }
+
+              break;
+
+      case 5:
+              if ((month == 4 && day >= 21) || (month == 5 && day <= 20))
+              {
+                  //Leo
+              }
+
+              break;
+
+      case 6:
+              if ((month == 5 && day >= 21) || (month == 6 && day <= 20))
+              {
+                //Virgo
+              }
+
+              break;
+
+      case 7:
+              if ((month == 6 && day >= 22) || (month == 7 && day <= 22))
+              {
+                  //Libra
+              }
+
+              break;
+
+      case 8:
+              if ((month == 7 && day >= 23) || (month == 8 && day <= 23))
+              {
+                  //Scorpio
+              }
+
+              break;
+
+        case 9:
+                if ((month == 8 && day >= 24) || (month == 9 && day <= 23))
+                {
+                    //Saggitarius
+                }
+
+                break;
+
+      case 10:
+                if ((month == 9 && day >= 24) || (month == 10 && day <= 23))
+                {
+                    //Capricorn
+                }
+
+                break;
+
+      case 11:
+                if ((month == 10 && day >= 24) || (month == 11 && day <= 22))
+                {
+                    //Aquarius
+                }
+
+                break;
+
+      case 12:
+                if ((month == 11 && day >= 23) || (month == 12 && day <= 21))
+                {
+                    //Pisces
+                }
+
+                break;
+
+      default:
+  }

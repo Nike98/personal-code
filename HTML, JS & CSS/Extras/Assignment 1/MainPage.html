@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Your Horoscope </title>
+    <style media="screen">
+      #div1
+      {
+        position:fixed;
+        top: 50%;
+        left: 50%;
+        width:50em;
+        height:25em;
+        margin-top: -9em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+        border: 1px solid #ccc;
+        background-color: #f3f3f3;
+      }
+
+      #div2
+      {
+        content: center;
+      }
+    </style>
+
+    <script>
+	    var parser = new DOMParser();
+	    var xmlDoc;
+      function main()
+      {
+          var horos = new XMLHttpRequest();
+          horos.onreadystatechange = function(data)
+                                      {
+                                          if (this.readyState == 4  &&  this.status == 200)
+                                          {
+                                              var obj = this.responseText;
+											                        xmlDoc = parser.parseFromString(obj,"text/xml");
+                                              loader();
+                                          }
+                                      };
+          horos.open("POST", "ForecastFile.xml", true);
+          horos.send();
+      }
+
+      function loader()
+      {
+          //var parser = new DOMParser();
+          //var xmlDoc;
+          var day = document.getElementById("day").value;
+          var month = document.getElementById("month").value;
+
+          if ((month == "january" && day <= 19) || (month == "december" && day >=22))
+          {
+            //Capricorn
+
+            txt = xmlDoc.getElementsByTagName("description")[9].childNodes[0].nodeValue;
+
+            document.getElementById("txthoro").innerHTML = "<b> Capricorn </b>" + "<br><br>" + txt;
+          }
+
+          else if ((month == "january" && day >= 20) || (month == "february" && day <= 18))
+          {
+              //Aquarius
+          }
+
+          else if ((month == "february" && day >= 19  &&  day <= 29) || (month == "march" && day <= 20))
+          {
+              //Pisces
+          }
+
+          else if ((month == "march" && day >= 21) || (month == "april" && day <= 19))
+          {
+              //Aries
+          }
+
+          else if ((month == "april" && day >= 20) || (month == "may" && day <= 20))
+          {
+              //Taurus
+          }
+
+          else if ((month == "may" && day >= 21) || (month == "june" && day <= 20))
+          {
+            //Gemini
+          }
+
+          else if ((month == "june" && day >= 21) || (month == "july" && day <= 22))
+          {
+              //Cancer
+          }
+
+          else if ((month == "july" && day >= 23) || (month == "august" && day <= 22))
+          {
+              //Leo
+          }
+
+          else if ((month == "august" && day >= 23) || (month == "september" && day <= 22))
+          {
+              //Virgo
+          }
+
+          else if ((month == "september" && day >= 23) || (month == "october" && day <= 22))
+          {
+              //Libra
+          }
+
+          else if ((month == "october" && day >= 23) || (month == "november" && day <= 21))
+          {
+              //Scorpio
+          }
+
+          else if ((month == "november" && day >= 22) || (month == 12 && day <= 21))
+          {
+              //Saggitarius
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="div2">
+      <strong> Please enter the following details to know your Horoscope </strong>
+      <br><br>
+      &emsp;&emsp;
+      <select id="day">
+        <option>Day</option>
+          <script>
+            for(var i=1; i<=31;i++)
+            {
+                document.write('<option value='+i+'>'+i+'</option>');
+            }
+          </script>
+      </select>
+      &emsp;
+      <select id="month">
+        <option>Month</option>
+        <option value="january">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="April">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+      <br><br>
+      &emsp;&emsp;&emsp;&emsp;
+      <input type="button" value="Check" onclick="main()">
+    </div>
+
+    <br>
+    <br>
+
+    <div id="txthoro">
+      Your Horoscope will be displayed here
+    </div>
+  </body>
+</html>
