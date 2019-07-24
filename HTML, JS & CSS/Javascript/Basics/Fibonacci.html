@@ -1,0 +1,51 @@
+
+<html>
+  <head>
+    <title>Fibonacci</title>
+
+    <script>
+      function fib()
+      {
+          var num = document.getElementById("num").value;
+          var first = 0;
+          var second = 1;
+          var next, i;
+
+          for ( i = 0 ; i < num ; i++ )
+          {
+              if ( i <= 1 )
+              {
+                  next = i;
+              }
+
+              else
+              {
+                  next = first + second;
+                  first = second;
+                  second = next;
+              }
+
+              document.write(next + "<br>");
+
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <br>
+      <br>
+
+      <p>
+        <b> Enter the number of terms : </b> &emsp;
+        <input type="text" id="num"> &emsp;
+        <input type="button" value="Execute" onclick="fib()">
+      </p>
+
+      <br>
+
+
+    </form>
+  </body>
+</html>

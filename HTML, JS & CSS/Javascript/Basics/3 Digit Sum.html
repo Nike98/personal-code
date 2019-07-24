@@ -1,0 +1,44 @@
+<!-- accept 3 digit number frm user and write down function in js to calculate the sum of digits of number -->
+
+<html>
+
+  <head>
+    <title>Sum of 3 digit number</title>
+  </head>
+
+  <body>
+
+    <form name="a1">
+      Enter a three digit number: <input type="text" name="num">
+
+      <input type="button" value="Sum" name="btn" onclick="sum()">
+    </form>
+
+    <script type="text/javascript">
+
+      function sum()
+      {
+          var n,n1,n2, sum=0,num;
+          var x=parseInt(document.forms["a1"]["num"].value);
+
+          num=x;
+
+          n=num%10;
+          num=parseInt(num/10);
+
+          n1=num%10;
+          num=parseInt(num/10);
+
+
+          sum=n+n1+num;
+
+          alert("The sum is: "+sum);
+
+
+
+      }
+      </script>
+
+    </body>
+
+</html>

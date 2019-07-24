@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Discount On Purchase</title>
+
+    <script>
+      function disc()
+      {
+          var inp;
+
+          inp = parseInt(document.getElementById("inp").value);
+
+          if ( inp > 500 )
+          {
+              inp -= parseInt(inp / 10);
+              document.getElementById("msg").innerHTML = "The total amount after discount " + inp;
+          }
+
+          else
+          {
+              document.getElementById("msg").innerHTML = "Sorry, discount cannot be given <br> The amount to be paid = " + inp;
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <br>
+      <br>
+      <p>
+        <b>Input : </b>
+        <input type="text" id="inp"> &emsp;
+        <input type="button" value="Check" onclick="disc()">
+      </p>
+
+      <br>
+
+      <p id="msg">
+        Result
+      </p>
+
+    </form>
+  </body>
+</html>

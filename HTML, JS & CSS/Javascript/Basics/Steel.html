@@ -1,0 +1,76 @@
+
+<html>
+  <head>
+    <title> Steel Grades </title>
+
+    <script>
+      function steel_grade()
+      {
+        var hardness, car_con, ten_strt;
+
+        hardness = document.getElementById("hardness").value;
+        car_con = document.getElementById("car_con").value;
+        ten_strt = document.getElementById("ten_strt").value;
+
+        if ( hardness > 50  &&  car_con < 0.7  &&  ten_strt > 5600)
+        {
+            alert ("The grade of the steel is 10");
+        }
+
+        else if ( hardness > 50  &&  car_con < 0.7  &&  ten_strt <= 5600)
+        {
+            alert ("The grade of the steel is 9");
+        }
+
+        else if ( hardness <= 50  &&  car_con < 0.7  &&  ten_strt > 5600)
+        {
+            alert ("The grade of the steel is 8");
+        }
+
+        else if ( hardness > 50  &&  car_con >= 0.7  &&  ten_strt > 5600)
+        {
+            alert ("The grade of the steel is 7");
+        }
+
+        else if ( hardness > 50  ||  car_con < 0.7  ||  ten_strt > 5600)
+        {
+            alert ("The grade of the steel is 6");
+        }
+
+        else
+        {
+            alert ("The grade of the steel is 5");
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <br>
+      <br>
+      <br>
+      <p>
+        <b> Hardness : &ensp;</b>
+        <input type="text" id="hardness">
+      </p>
+
+      <p>
+        <b> Carbon Content : &ensp;</b>
+        <input type="text" id="car_con">
+      </p>
+
+      <p>
+        <b> Tensile Strength : &ensp;</b>
+        <input type="text" id="ten_strt">
+      </p>
+
+      <br>
+      <br>
+
+      <p>
+        <input type="button" value="Claculate" onclick="steel_grade()">
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+
+<html>
+  <head>
+    <title> Square Root </title>
+
+    <script>
+      function mysqrt()
+      {
+          var num = document.getElementById("n").value;
+
+          var count, temp;
+
+          if(num < 0)
+          {
+              document.getElementById("msg").innerHTML = "The Square root cannot be a negative number";
+              return;
+          }
+
+          for(count = 2 ; count <= num ; count++)
+          {
+              temp = count * count;
+
+              if(num == temp)
+              {
+                  document.getElementById("msg").innerHTML = "Square root of " + num + " is " + count;
+                  break;
+              }
+
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <br>
+      <br>
+
+      <p>
+        <b> Value : &emsp;</b>
+        <input type="text" id="n">
+        </p>
+         <p id="msg">Result</p>
+
+
+      <br>
+
+
+        <input type="button" value="Check" onclick="mysqrt()">
+
+
+    </form>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+
+<html>
+  <head>
+    <title>Worker Efficiency </title>
+
+    <script>
+      function w_eff()
+      {
+          var inp;
+
+          inp = document.getElementById("inp").value;
+
+          if ( inp >= 2  &&  inp < 4 )
+          {
+              document.write ("The worker is highly Efficient");
+          }
+
+          else if ( inp >= 3  &&  inp < 5 )
+          {
+              document.write ("The worker is ordered to improve the speed");
+          }
+
+          else if ( inp >= 4  &&  inp <= 5 )
+          {
+              document.write ("The worker should be given training to improve the speed");
+          }
+
+          else
+          {
+              document.write ("The worker has to leave the company");
+          }
+      }
+    </script>
+  </head>
+
+  <body>
+    <form>
+      <br>
+      <br>
+      <p>
+        <b>Hours : &emsp;</b>
+        <input type="text" id="inp"> &emsp;
+        <input type="button" value="Check" onclick="w_eff()">
+      </p>
+
+      <p id="inp"></p>
+    </form>
+  </body>
+</html>
