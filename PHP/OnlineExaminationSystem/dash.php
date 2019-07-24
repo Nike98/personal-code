@@ -45,15 +45,36 @@
                     include_once 'dbConnection.php';
                     echo '<span class="pull-right top title1">
                             <span class="log1">
-                                <span class="glyphicon glyphicon-user" aria-hidden="true">&emsp;Hello,</span>
-                                <a href="account.php" class="log log1"' .$name.'</a>&nbsp;|&nbsp;
-                                <a href="logout.php?q=account.php" class="log"></a>
-                                <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
-                                </span></span>';
+                                <span class="glyphicon glyphicon-user" aria-hidden="true">&emsp;Hello,
+                            </span>
+                            <a href="account.php" class="log log1"' .$name.'</a>&nbsp;|&nbsp;
+                            <a href="logout.php?q=account.php" class="log"></a>
+                            <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+                          </span>';
                 }
-            ?>
             ?>
         </div> <!-- / .row -->
     </div> <!-- / .header -->
+
+    <!-- Navigation Menu Code Starts here -->
+    <nav class="navbar navbar-default title1">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="dash.php?q=0"><b>Dashboard</b></a>
+            </div> <!-- / .navbar-header -->
+            <!-- Collect the nav links, forms and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            </div> <!-- / #bs-example-navbar-collapse-1 -->
+        </div> <!-- / .container-fluid -->
+    </nav>
+    <!-- Navigation Menu Code Ends here -->
 </body>
 </html>
