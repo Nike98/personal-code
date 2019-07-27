@@ -12,7 +12,7 @@
   
   <servlet>
   	<servlet-name>name</servlet-name>
-  	<servlet-class>com.addNum.AddServlet</servlet-class>
+  	<servlet-class>com.addNum.UsingPOST</servlet-class>
   </servlet>
   
   <servlet-mapping>
