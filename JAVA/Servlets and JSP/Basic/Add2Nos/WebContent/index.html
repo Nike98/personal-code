@@ -1,3 +1,26 @@
+
+<!-- 
+	This whole app is an example fort showing the viewer the 
+	way of using JAVA Servlets in the most basic way.
+	
+	It includes taking numerical input from the User and 
+	printing the sum of those inputs.
+	
+	The <<AddServlet>> class includes doing this operation
+	by the most basic way and by default way the
+	info/values is processed is by using the GET method.
+	
+	But to portray this in a more specific way, the 
+	<<UsingGET>> and <<UsingPOST>> classes are made to 
+	show the difference clearly.
+	
+	The <<UsingGET>> class processes the information
+	using the GET method strictly.
+	
+	The <<UsingPOST>> class processes the information
+	using the POST method strictly.
+ -->
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,13 +28,19 @@
 <title>Add Two Numbers</title>
 </head>
 <body>
-	<form action="add">
+	<form action="add" method="post">
 		<p>
 			<b>Enter 1st Number: </b>&emsp;
-			<input type="text" name="num1"> <br>
+			<input type="text" name="num1"> 
+			
+			<br>
+			<br>
 			
 			<b>Enter 2nd Number: </b>&emsp;
-			<input type="text" name="num2"> <br>
+			<input type="text" name="num2"> 
+			
+			<br>
+			<br>
 			
 			<input type="submit">
 		</p>
