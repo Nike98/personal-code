@@ -71,7 +71,38 @@
             </div> <!-- / .navbar-header -->
             <!-- Collect the nav links, forms and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-
+                <ul class="nav navbar-nav">
+                    <li <?php if (@$_GET['q'] == 0) echo 'class="active"';?>>
+                        <a href="dash.php?q=0">
+                            Home<span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li <?php if (@$_GET['q'] == 1) echo 'class="active"';?>>
+                        <a href="dash.php?q=1">User</a>
+                    </li>
+                    <li <?php if (@$_GET['q'] == 2) echo 'class="active"';?>>
+                        <a href="dash.php?q=2">Ranking</a>
+                    </li>
+                    <li <?php if (@$_GET['q'] == 3) echo 'class="active"';?>>
+                        <a href="dash.php?q=3">Feedback</a>
+                    </li>
+                    <li class="dropdown <?php if (@$_GET['q'] == 4 || @$_GET['q'] == 5) echo 'active';?>">
+                        <a href="#" calss="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-exapnded="false">
+                            Quiz
+                            <span class="caret"></span>
+                        </a> <!-- / .dropdown-toggle -->
+                        <ul class="dropdown-menu">
+                            <li><a href="dash.php?q=4">Remove Quiz</a></li>
+                            <li><a href="dash.php?q=5"></a>Add Quiz</li>
+                        </ul>
+                    </li>
+                    <li class="pull-right">
+                        <a href="logout.php?q=account.php">
+                            <span class="glyphicon glyphicon-log-out" aria-hidden="true"></span>
+                            &emsp;Signout
+                        </a>
+                    </li>
+                </ul> <!-- / .nav navbar-nav -->
             </div> <!-- / #bs-example-navbar-collapse-1 -->
         </div> <!-- / .container-fluid -->
     </nav>
