@@ -207,7 +207,7 @@
                     <p>
                         <div class="row">
                             <div class="col-md-4">
-                                <img src="image/dev_warren_high.jpg" width="100" height="100" alt="Warren D'Souza" class="img-rounded">
+                                <img src="image/Nikhil.jpg" width="100" height="100" alt="Nikhil Agarwal" class="img-rounded">
                             </div> <!-- / .col-md-4 -->
                             <div class="col-md-5">
                                 <a href="https://github.com/Nike98" style="color: #202020; font-family: 'typo'; font-size: 18px;" title="Find on Github">Nikhil and Warren</a>
