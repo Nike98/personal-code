@@ -15,6 +15,7 @@
  *      WAP to read Name of user, No. of Units consumed
  *      and print the charge with the names.
  */
+///
 
  #include<stdio.h>
  //#include<conio.h>
