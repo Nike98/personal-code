@@ -1,4 +1,4 @@
-##C
+#C
 
 1. All the programs existing in this C folder were compiled and executed using **Code::Blocks**
 
