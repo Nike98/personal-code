@@ -18,6 +18,13 @@ int main()
     // Taking this to check Even and Odd further in the program
     num_copy = num;
 
+    // Condition for Even and Odd Numbers
+    if (num_copy % 2 == 0)
+        printf("\n The entered number is an Even Number.");
+    else
+        printf("\n The entered number is an Odd Number.");
+
+    // Checking if the User put 1 as Input
     if (num == 1)
         printf("\n 1 is neither a Prime or a Composite Number.");
     else{
@@ -29,14 +36,8 @@ int main()
             }
         }
 
-        if (flag){
-            // Condition for Even and Odd Numbers
-            if (num_copy % 2 == 0)
-                printf("\n The entered number is an Even Number.");
-            else
-                printf("\n The entered number is an Odd Number.");
+        if (flag)
             printf("\n It is Not a Prime Number.");
-        }
         else
             printf("\n It is a Prime Number.");
     }
