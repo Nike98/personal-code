@@ -1,10 +1,3 @@
-///
-/**
- *      WAP to find the Largest of 3
- *      using Conditional Operator.
- */
-///
-
 #include<stdio.h>
 #include<conio.h>
 

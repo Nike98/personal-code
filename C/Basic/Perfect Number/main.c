@@ -1,11 +1,3 @@
-///
-/**
- *      WAP to check if the Number entered by
- *      User is a Perfect Number or not.
- */
-///
-
-
 #include<stdio.h>
 #include<conio.h>
 
