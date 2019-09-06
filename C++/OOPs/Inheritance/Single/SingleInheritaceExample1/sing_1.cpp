@@ -43,5 +43,5 @@ int main ()
     obj.Input();
     obj.Output();
 
-    retunr 0;
+    return 0;
 }
