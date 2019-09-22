@@ -31,16 +31,18 @@ public class spc_val_arr {
 		boolean flag = false;
 		
 		for ( int check : arr ) {
-			if ( check == value )
+			if ( check == value ) {
 				flag = true;
+				break;
+			}
 			else
 				flag = false;
 		}
 		
-		if (!flag)
-			System.out.println("\n The Value does Not Exists");
-		else
+		if (flag)
 			System.out.println("\n The Value Exists");
+		else
+			System.out.println("\n The Value does not Exists");
 	}
 
 }
