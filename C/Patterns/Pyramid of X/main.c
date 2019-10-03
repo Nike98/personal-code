@@ -25,7 +25,7 @@ int main()
         }
         for(col = 0 ; col <= row*2 ; col++)
         {
-            printf(" *");
+            printf(" X");
         }
         printf("\n");
     }
