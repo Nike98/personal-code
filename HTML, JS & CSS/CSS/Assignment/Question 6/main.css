@@ -1,0 +1,21 @@
+body {
+    background-image: url("bg.jpg");
+}
+
+h1 {
+    background-color: red;
+    width: 480px;
+    background-position: center top;
+}
+
+p {
+    background-color: white;
+    width: 480px;
+    font-family: Arial, sans-serif;
+}
+
+.demo {
+    background-color: cyan;
+    width: 480px;
+    font-family: Calibri;
+}

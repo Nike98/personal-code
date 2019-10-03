@@ -1,0 +1,58 @@
+
+div {
+    border: 3px solid #73ad21;
+    height: 300px;
+    width: 500px;
+}
+
+img {
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    z-index: -1;
+}
+
+.relative1 {
+    position: relative;
+    top: 10px;
+    left: 2px;
+    border: 3px solid #73ad21;
+    width: 150px;
+    padding: 5px;
+}
+
+.relative2 {
+    position: relative;
+    bottom: -273px;
+    left: -145px;
+    border: 3px solid #73ad21;
+    width: 150px;
+    padding: 5px;
+}
+
+.relative3 {
+    position: relative;
+    top: 10px;
+    right: -33px;
+    border: 3px solid #73ad21;
+    width: 150px;
+    padding: 5px;
+}
+
+.relative4 {
+    position: relative;
+    bottom: -255px;
+    right: -325px;
+    border: 3px solid #73ad21;
+    width: 150px;
+    padding: 5px;
+}
+
+.relative5 {
+    position: relative;
+    align: center;
+    top: 110px;
+    border: 3px solid #73ad21;
+    width: 150px;
+    padding: 5px;
+}

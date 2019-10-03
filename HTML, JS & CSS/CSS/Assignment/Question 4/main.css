@@ -1,0 +1,7 @@
+.font_prop {
+    font-family: Arial, sans-serif;
+    font-size: 3vw; /* Due to this the Font Size changes on runtime, instead of getting arranged */
+    color: deepskyblue;
+    font-weight: bolder;
+    font-style: normal;
+}

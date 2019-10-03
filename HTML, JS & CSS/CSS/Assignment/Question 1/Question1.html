@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Question 1</title>
+    <style type="text/css">
+        /* Universal Selector */
+        * {
+            background-color: dimgrey;
+        }
+
+        /* ID Selector */
+        #first_para {
+            color: lawngreen;
+            font-size: larger;
+            font-weight: bold;
+        }
+
+        /* Tag Selector */
+        hr {
+            color: azure;
+            border: 7px solid green;
+            border-radius: 5px;
+            margin-left: 30px;
+            margin-right: 900px;
+        }
+
+        /* Class Selector */
+        .color_red { color:red; }
+
+        /* Descendant Selector */
+        .parent p {
+            color: gold;
+            font-size: small;
+        }
+
+        /* Type Selector */
+        p {
+            background: black;
+            color: lawngreen;
+            font-size: larger;
+        }
+
+        /* Grouping (element Based) */
+        h3, h5 {
+            background: black;
+            color: fuchsia;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<pre id="first_para">
+    The Background of the Screen is made to be black using the Universal Selector Property of CSS.
+
+    And as for this pre tag, it is enhanced using the ID Selector Property of CSS and is
+    given a color green and font size as larger and font weight as bold.
+</pre>
+<br /><br />
+<hr />
+<br /><br />
+<h2 class="color_red">This whole Heading wil  be Red to to the CSS Class Selector</h2>
+
+<br /><br/>
+
+<div class="parent">
+    <p>
+        The is the Paragraph inside the div with class="parent" and this para is the Descendant
+    </p>
+</div>
+
+<br /><br />
+<p>
+    This Paragraph is for the Demonstration of the Type Selector
+</p>
+
+<br /><br />
+
+<h5>This Tag is having the Group Selector Property</h5>
+<h3>This Tag also has the Group Selector Property</h3>
+</body>
+</html>

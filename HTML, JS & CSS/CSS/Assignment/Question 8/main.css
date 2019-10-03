@@ -1,0 +1,21 @@
+
+.div1 {
+    text-align: center;
+    background-color: lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 25px;
+    margin: 20px;
+    height: 200px;
+}
+
+.div2 {
+    border: 1px solid red;
+    clear: left;
+    height: 100px;
+}
+
+.img1 {
+    float: left;
+    display: table;
+}

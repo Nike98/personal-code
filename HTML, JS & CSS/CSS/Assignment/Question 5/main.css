@@ -1,0 +1,74 @@
+
+h1 {
+    letter-spacing: 5px;
+    color: blue;
+    text-indent: 35px;
+    font-size: 20px;
+}
+
+h2 {
+    letter-spacing: 3px;
+    color: blue;
+    text-indent: 35px;
+    font-size: 15px;
+}
+
+h4 {
+    line-height: normal;
+    color: blue;;
+    font-size: 15px;
+}
+
+h5 {
+    line-height: 60%;
+    color: blue;
+    font-size: 15px;
+}
+
+h6 {
+    line-height: 210%;
+    color: blue;
+    font-size: 15px;
+}
+
+h7 {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: blue;
+    text-indent: 35px;
+}
+
+h8 {
+    font-size: 15px;
+    text-transform: lowercase;
+    color: blue;
+    text-indent: 35px;
+}
+
+h9 {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: blue;
+    text-indent: 35px;
+}
+
+h10 {
+    letter-spacing: 25px;
+    color: blue;
+    text-indent: 35px;
+    font-size: 15px;
+}
+
+h11 {
+    letter-spacing: 10px;
+    color: blue;
+    text-indent: 35px;
+    font-size: 15px;
+}
+
+h12 {
+    letter-spacing: -1px;
+    color: blue;
+    text-indent: 35px;
+    font-size: 15px;
+}

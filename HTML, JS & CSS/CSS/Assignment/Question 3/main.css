@@ -1,0 +1,56 @@
+/* Pseudo Classes in CSS */
+
+* {
+    text-align: center;
+}
+
+.box1 {
+    background-color: yellow;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.box2 {
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    font-size: 40px;
+}
+
+.input {
+    background-color: -moz-default-color;
+    float: right;
+}
+
+h1, h2 {
+    color: green;
+    text-align: center;
+}
+
+/* :hover class */
+.box1:hover {
+    background-color: orange;
+}
+
+/* :visited class */
+a:visited {
+    color: red;
+}
+
+/* :active class */
+.box2:active {
+    background-color: aqua;
+}
+
+/* :focus class */
+input:focus {
+    background-color: gray;
+}
+
+/* :link class */
+a:link {
+    background-color: gold;
+}
