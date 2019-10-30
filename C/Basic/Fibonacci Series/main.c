@@ -26,6 +26,7 @@ int main()
     printf("\n %d", next);
     }
 
+
     //getch();
     return 0;
 }

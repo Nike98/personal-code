@@ -41,4 +41,6 @@ int main()
         else
             printf("\n It is a Prime Number.");
     }
+
+
 }

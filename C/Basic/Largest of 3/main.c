@@ -21,7 +21,7 @@ int main()
     printf("\n Enter the value of c: ");
     scanf("%d", &c);
 
-    if ((a > bb ) && (a > c))
+    if ((a > b ) && (a > c))
         printf("\n a is the largest number");
     else if((b > c) && (b > a))
         printf("\n b is the largest number");
