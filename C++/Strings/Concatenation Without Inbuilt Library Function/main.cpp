@@ -1,6 +1,9 @@
 ///
 /**
- *      ** Insert Question Here **
+ *      Write a program to implement a function concat(char a[],
+ *      char b[], char c[], int max) that concatenates the strings
+ *      ‘a’ and ‘b’ to the string ‘c’, ‘max’ is the maximum size of the
+ *      concatenated string. Without using any standard library string handling functions.
  */
 ///
 
@@ -8,13 +11,10 @@
 
 using namespace std;
 
-void concat(int max, char a[], char b[], char c[max])
+void concat(char a[], char b[], char c[], int max)
 {
     int index1 = 0;
     int index2 = 0;
-    const int size = 20;
-
-    a[size], b[size];
 
     while (a[index1] != '\0'){
         c[index1] = a[index1];
@@ -22,12 +22,13 @@ void concat(int max, char a[], char b[], char c[max])
     }
 
     while (b[index2] != '\0'){
-        c[index2] = b[index2];
+            index1++;
+        c[index1] = b[index2];
         index2++;
     }
 
     cout << "\n\n The Concatenated String is : ";
-    for (int i = 0; i < index1 + index2; i++)
+    for (int i = 0; i < max; i++)
         cout << " " << c[i];
 
     cout << "\n\n";
@@ -35,15 +36,20 @@ void concat(int max, char a[], char b[], char c[max])
 
 int main()
 {
-    char a[], b[], c[];
+    char str1[30], str2[30], str3[30];
+    int size;
 
     cout << " Enter the 1st String : ";
-    cin >> a;
+    cin >> str1;
 
     cout << " Enter the 2nd String : ";
-    cin >> b;
+    cin >> str2;
 
-    concat(50, a, b, c);
+    cout << " Enter the Maximum Size of the Concatenated String : ";
+    cin >> size;
+
+    concat(str1, str2, str3, size);
 
     return 0;
 }
+
