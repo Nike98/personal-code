@@ -1,8 +1,8 @@
 ///
 /**
- *  Design an Employee class for Reading and Displaying the Employee
- *  information. The getinfo() and displayinfo() will be used
- *  respectively. Where getinfo() will be used as a private method.
+ *      Design an Employee class for Reading and Displaying the Employee
+ *      information. The getinfo() and displayinfo() will be used
+ *      respectively. Where getinfo() will be used as a private method.
  */
 ///
 

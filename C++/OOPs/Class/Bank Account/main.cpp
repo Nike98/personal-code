@@ -1,19 +1,19 @@
 ///
 /**
- *  Define a class to represent a Bank Account.
- *  Include the following members:
+ *      Define a class to represent a Bank Account.
+ *      Include the following members:
  *
- *  Data Members:
- *  1. Name of the Depositor
- *  2. Account Number
- *  3. Type of Account
- *  4. Balance amount in the Account
+ *      Data Members:
+ *      1. Name of the Depositor
+ *      2. Account Number
+ *      3. Type of Account
+ *      4. Balance amount in the Account
  *
- *  Member Functions:
- *  1. To assign initial values
- *  2. To deposit an amount
- *  3. To withdraw amount after checking the balance
- *  4. To display the name and the balance
+ *      Member Functions:
+ *      1. To assign initial values
+ *      2. To deposit an amount
+ *      3. To withdraw amount after checking the balance
+ *      4. To display the name and the balance
  */
 ///
 
