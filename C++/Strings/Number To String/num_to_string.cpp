@@ -18,24 +18,25 @@ int main()
     for( ; rev != 0; rev /= 10){
         rem = rev % 10;
         if(rem == 1)
-            cout << "One";
+            cout << "One ";
         else if(rem == 2)
-            cout << "Two";
+            cout << "Two ";
         else if(rem == 3)
-            cout << "Three";
+            cout << "Three ";
         else if(rem == 4)
-            cout << "Four";
+            cout << "Four ";
         else if(rem == 5)
-            cout << "Five";
+            cout << "Five ";
         else if(rem == 6)
-            cout << "Six";
+            cout << "Six ";
         else if(rem == 7)
-            cout << "Seven";
+            cout << "Seven ";
         else if(rem == 8)
-            cout << "Eight";
+            cout << "Eight ";
         else if(rem == 9)
-            cout << "Nine";
+            cout << "Nine ";
         else
-            cout << "Zero";
+            cout << "Zero ";
     }
+    return 0;
 }
