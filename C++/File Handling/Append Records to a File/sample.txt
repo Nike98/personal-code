@@ -1,0 +1,5 @@
+Hello.Well, Hello there!
+
+This is the actuhal content by User input to Append.
+
+This content goes to the file
