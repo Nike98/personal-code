@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cm to Ft</title>
+    <script type="text/javascript">
+        function ConvertToFt(){
+            var cm = parseFloat(document.getElementById("cm").value);
+            var ft = document.getElementById("ft").innerHTML = cm/30.48;
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <br><br>
+        <h2>Height Conversion (Cm to Ft)</h2>
+        <p>
+            <b>Centimeters:</b>
+            <input style="margin-left: 50px;" type="number" id="cm" placeholder="Centimeters">
+            <input style="margin-left: 50px;" type="button" value="Convert" onclick="ConvertToFt()">
+        </p>
+        <p>
+            <b>Feet: </b>
+            <span id="ft"></span>
+        </p>
+    </form>
+</body>
+</html>

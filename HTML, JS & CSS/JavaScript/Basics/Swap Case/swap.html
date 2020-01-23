@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Swap the Letter Case</title>
+    <script type="text/javascript">
+        function Swap() {
+            var swapcase = function () {
+                var str = document.getElementById("inp").value;
+                return str.replace(/([a-z]+)|([A-Z]+)/g, function (match, chr) {
+                    return chr ? match.toUpperCase() : match.toLowerCase();
+                });
+            }
+            document.getElementById("opt_str").innerHTML = swapcase();
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <b>Enter the String: </b>
+        <input id="inp" type="text" placeholder="Enter the String" style="margin-left: 30px;">
+        <input type="button" value="Swap" onclick="Swap()" style="margin-left: 30px;">
+    </p>
+    <p><b>Result String: </b> <span id="opt_str"></span> </p>
+</body>
+</html>

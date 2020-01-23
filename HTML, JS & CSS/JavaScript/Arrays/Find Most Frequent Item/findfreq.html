@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Find Most Frequent Items</title>
+    <script type="text/javascript">
+        var arr = [3,'a','a','a',2,3,'a',3,'a',2,4,9,3];
+        var ele1 = 0;
+        var ele2 = 1;
+        var item;
+
+        for (var i = 0; i < arr.length; i++){
+            for (var j = i; j < arr.length; j++){
+                if (arr[i] == arr[j])
+                    ele1++;
+                if (ele2 < ele1){
+                    ele2 = ele1;
+                    item = arr[i];
+                }
+            }
+            ele1 = 0;
+        }
+
+        document.write(item + " ( " + ele2 + " times )");
+    </script>
+</head>
+<body>
+
+</body>
+</html>
