@@ -1,6 +1,6 @@
 ///
 /**
- *      WAP to Sort Elements of an Array
+ *      WAP to Sort Elements Using Bubble Sort method
  */
 ///
 
@@ -8,49 +8,55 @@
 
 using namespace std;
 
-void Display(int size, int arr[size]);
-void BubbleSort(int size, int arr[size]);
+void swap(int *x, int *p)
+{
+    int temp = *x;
+    *x = *p;
+    *p = temp;
+}
+
+//  Function to perform Bubble Sort on the Array
+void bubbleSort(int arr[], int n)
+{
+    for (int i = 0; i < n-1; i++){
+        for (int j = 0; j < n-i-1; j++){
+            if (arr[j] > arr[j+1])
+                swap(&arr[j], &arr[j+1]);
+        }
+    }
+}
+
+//  Function to Print the Array
+void printArray(int arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+        cout << " " << arr[i];
+    cout << endl;
+}
 
 int main()
 {
-    // Get the Size of the Array
     int size;
-    cout << " Enter the Size of the Array: ";
+
+    cout << " Enter the size of the Array : ";
     cin >> size;
 
     int arr[size];
 
-    cout << " Enter the " << size << " elements of the Array: " << endl;
+    cout << "\n Enter all the Array Elements...\n";
     for (int i = 0; i < size; i++)
         cin >> arr[i];
 
-    // Displaying the Array to the User before being sorted
-    cout << "\n The Array before being Sorted is ..." << endl;
-    Display(size, arr);
+    // Printing the Array before Sorting
+    cout << "\n The Array before being Sorted...\n";
+    printArray(arr, size);
 
-    // Calling the BubbleSort Method to perform Sorting
-    BubbleSort(size, arr);
-}
+    // Passing the Array to the Bubble Sort method
+    bubbleSort(arr, size);
 
-void BubbleSort(int size, int arr[size])
-{
-    for (int i = 0; i < (size - 1); i++){
-        for (int j = 0; j < (size - i - 1); j++){
-            // This logic is for doing it in Ascending order
-            if (arr[j] > arr[j + 1]){
-                int swap = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = swap;
-            }
-        }
-    }
+    // Printing the Array after Sorting it
+    cout << "\n Array after being Sorted...\n";
+    printArray(arr, size);
 
-    cout << " The Array after being Sorted is ..." << endl;
-    Display(size, arr);
-}
-
-void Display(int size, int arr[size])
-{
-    for (int i = 0; i < size; i++)
-        cout << "  " << arr[i];
+    return 0;
 }
