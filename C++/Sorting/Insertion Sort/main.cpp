@@ -5,6 +5,7 @@
 ///
 
 #include<iostream>
+#include<stdlib.h>
 
 using namespace std;
 
@@ -35,12 +36,14 @@ int main()
 
     cout << " Enter the size of the Array : ";
     cin >> size;
+    system("cls");
 
     int arr[size];
 
     cout << "\n Enter all the Array Elements...\n";
     for (int i = 0; i < size; i++)
         cin >> arr[i];
+    system("cls");
 
     // Printing the Array before Sorting
     cout << "\n The Array before being Sorted...\n";
@@ -55,50 +58,3 @@ int main()
 
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
