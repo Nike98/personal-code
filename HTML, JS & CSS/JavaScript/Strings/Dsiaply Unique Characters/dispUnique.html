@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Unique Characters</title>
+    <script type="text/javascript">
+        function FindUnique() {
+            var str = document.getElementById("str").value;
+            var unique_str = "";
+
+            for (var i = 0; i < str.length; i++){
+                if (unique_str.indexOf(str.charAt(i)) == -1)
+                    unique_str += str[i];
+            }
+            document.getElementById("res").innerHTML = "The String with all the Unique Characters : <b>" + unique_str + "</b>";
+        }
+    </script>
+</head>
+<body>
+    <h2>Display Unique Characters in a given String</h2>
+    <p>
+        <b>Enter the String : </b>
+        <input type="text" id="str" placeholder="Enter String here" style="margin-left: 30px;">
+        <input type="button" value="Search" onclick="FindUnique()" style="margin-left: 30px;">
+    </p>
+    <br />
+    <p><span id="res">Result will be displayed here...</span></p>
+</body>
+</html>

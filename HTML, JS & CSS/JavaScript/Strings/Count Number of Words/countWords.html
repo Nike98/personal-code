@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Count Words</title>
+</head>
+<body>
+    <h2>Count the number of words entered</h2>
+    <p>
+        <textarea name="txtAr" id="str" placeholder="Enter all the data here...." rows="5" cols="30"></textarea>
+        <br /><br />
+        <input type="button" value="Calculate" onclick="CalcWords()">
+        <input type="text" id="total" placeholder="Answer" style="margin-left: 20px;">
+    </p>
+    <script type="text/javascript">
+        function CalcWords() {
+            var str = document.getElementById("str").value;
+            document.getElementById("total").value = str.trim().split(/\s+/).length;
+        }
+    </script>
+</body>
+</html>
