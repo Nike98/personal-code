@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cube of a Number</title>
+    <script type="text/javascript">
+        function Calculate() {
+            var num = document.getElementById("num").value;
+            document.getElementById("msg").innerHTML = "<b>The Cube of the Number is : " + Math.pow(num, 3) + "</b>";
+        }
+    </script>
+</head>
+<body>
+    <h3>Cube of a Number</h3>
+    <br />
+    <p>
+        <b>Enter the Number : </b>
+        <input id="num" type="number" placeholder="Enter number without decimal" style="margin-left: 30px;">
+        <input type="button" value="Calculate" style="margin-left: 30px;" onclick="Calculate()">
+    </p>
+    <br />
+    <p id="msg"></p>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Area and Circumference of a Circle</title>
+    <script type="text/javascript">
+        const pi = 3.14159;
+        function area_circle(){
+            var num = parseInt(document.getElementById("radius").value);
+            document.getElementById("result").innerHTML = "The Area of the Circle is : " + (pi * Math.pow(num, 2));
+        }
+
+        function circumference(){
+            var num = parseInt(document.getElementById("radius").value);
+            document.getElementById("result").innerHTML = "The Circumference of the Circle is : " + (2 * pi * num);
+        }
+    </script>
+</head>
+<body>
+<br />
+<h2>Area and Circumference of Circle</h2>
+<br />
+<form>
+    <p>
+        <b>Enter the Radius</b>
+        <input type="number" id="radius" placeholder="Radius" style="margin-left: 30px;">
+    </p>
+    <br />
+    <p>
+        <input type="button" value="Area" style="margin-left: 20px;" onclick="area_circle()">
+        <input type="button" value="Circumference" style="margin-left: 30px;" onclick="circumference()">
+    </p>
+    <br /><br />
+    <span id="result"></span>
+</form>
+</body>
+</html>

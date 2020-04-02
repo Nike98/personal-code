@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Age Calculation</title>
+    <script type="text/javascript">
+        function Calculate(){
+            var b_year = parseInt(document.getElementById("birth_year").value);
+            var curr_year = new Date().getFullYear();
+            calcAge(b_year, curr_year);
+        }
+
+        function calcAge(b_year, curr_year) {
+            document.getElementById("result").innerHTML = "The Age is : " + (curr_year - b_year);
+        }
+    </script>
+</head>
+<body>
+    <p>
+        <b>Enter the Birth Year: </b>
+        <input type="number" id="birth_year" style="margin-left: 30px;" placeholder="Full year : YYYY">
+        <input type="button" id="submit_button" value="Calculate" onclick="Calculate()">
+    </p>
+    <p id="result"></p>
+</body>
+</html>

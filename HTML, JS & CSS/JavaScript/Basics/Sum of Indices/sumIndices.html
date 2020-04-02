@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sum of Indices is Target</title>
+</head>
+<body>
+    <h2>Sum of two Indices is a specific Target number</h2>
+    <p><b>Target = 50</b></p>
+    <p id="demo"></p>
+    <br />
+    <p id="ans"></p>
+    <script type="text/javascript">
+        var target = 50;
+        var arr = [10,20,30,40,50,90];
+        var sum, first, second;
+        var flag = 1;
+
+        // Performing the main Calculation
+        for (var i = 0; i < arr.length; i++) {
+            for (var j = 0; j < i; j++) {
+                first = arr[i];
+                second = arr[j];
+                sum = first + second;
+
+                if (sum == target) {
+                    document.getElementById("ans").innerHTML = first + " + " + second + " = " + sum + "<br />";
+                    flag = 0;
+                }
+            }
+        }
+        if (flag)
+            document.getElementById("ans").innerHTML = "<b>No Matches Found !</b>";
+    </script>
+</body>
+</html>

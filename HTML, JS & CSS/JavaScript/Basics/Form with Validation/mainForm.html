@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form with Validation</title>
+    <script src="validationScript.js"></script>
+    <style type="text/css">
+        .error_text {color: #A90A08;}
+    </style>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <br />
+    <form name="registration" >
+        <table border="0" cellspacing="5" cellpadding="5">
+            <tr>    <!-- User ID -->
+                <td><label for="userid">User ID : </label></td>
+                <td><input type="text" name="userid" /></td>
+                <td><span id="err_uid" class="error_text"></span></td>
+            </tr>
+            <tr>    <!-- Gender -->
+                <td><label for="gender">Gender : </label></td>
+                <td>
+                    <input type="radio" id="sex" name="sex" value="Male"><span>Male</span>
+                    &emsp;
+                    <input type="radio" id="sex" name="sex" value="Female"><span>Female</span>
+                </td>
+                <td><span id="err_gender" class="error_text"></span></td>
+            </tr>
+            <tr>    <!-- Email -->
+                <td><label for="email">Email ID : </label></td>
+                <td><input type="email" name="email"></td>
+                <td><span id="err_email" class="error_text"></span></td>
+            </tr>
+            <tr>    <!-- Zip Code -->
+                <td><label for="zip">Zip Code : </label></td>
+                <td><input type="number" name="zip"></td>
+                <td><span id="err_zip" class="error_text"></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="button" name="submit" value="Submit" onclick="formValidation()"></td>
+            </tr>
+        </table>
+    </form>
+    <br /><br />
+    <span id="final"></span>
+</body>
+</html>

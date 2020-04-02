@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display User's Mouse Coordinates</title>
+    <script type="text/javascript">
+        function mouseCoordinates(event) {
+            document.getElementById("coord").innerHTML = "Client X: " + event.clientX + "&emsp; Client Y: " + event.clientY;
+        }
+        document.addEventListener("click", mouseCoordinates);
+    </script>
+</head>
+<body>
+    <h2>Display User's Mouse Coordinates</h2>
+    <div id="coord"></div>
+</body>
+</html>

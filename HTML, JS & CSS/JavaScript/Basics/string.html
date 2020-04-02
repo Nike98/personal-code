@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>string swap</title>
+    <script type="text/javascript">
+        function strcon() {
+            var b = '';
+            var a = document.getElementById("inp").value;
+            for (i = 0; i < a.length; i++) {
+                if (a.charCodeAt(i) >= 65 && a.charCodeAt(i) <= 90) {
+                    b = b + a.charAt(i).toLowerCase();
+                }
+                else
+                    b = b + a.charAt(i).toUpperCase();
+            }
+            alert(b);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <br><br>
+        <h2>swap the case of string</h2>
+        <p>
+            <b>Enter the string:</b>
+            <input id="inp" type="text" placeholder="enter the string " style="margin-left: 30px">
+            <input type="button" value="swap" onclick="strcon()" style="margin-left: 30px">
+        </p>
+        <p>
+            <b>string: </b>
+            <span id="str"></span>
+        </p>
+    </form>
+</body>
+</html>
