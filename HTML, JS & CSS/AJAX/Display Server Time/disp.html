@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Display Server Time</title>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        function loadTime() {
+            setInterval(display, 500);
+        }
+    </script>
+</head>
+<body>
+    <div style="margin-left: 100px; margin-top: 100px;">
+        <button onclick="loadTime()">Load Time</button>
+        <br /><br />
+        <span id="time"></span>
+    </div>
+</body>
+</html>

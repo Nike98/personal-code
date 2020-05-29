@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+    <script type="text/javascript" src="app.js"></script>
+</head>
+<body>
+    <div align="center">
+        <fieldset style="margin-left: 500px; margin-right: 500px;">
+            <legend>Dictionary</legend>
+            <table>
+                <tr>
+                    <th colspan="3">Add a new Word</th>
+                </tr>
+                <tr>
+                    <td>Enter the Word:</td>
+                    <td><input type="text" id="new_word"></td>
+                </tr>
+                <tr>
+                    <td>Enter the Description:</td>
+                    <td><input type="text" id="desc"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><button onclick="addWord();">Add</button></td>
+                </tr>
+                <tr><td> </td></tr>
+                <tr><td> </td></tr>
+                <tr>
+                    <th colspan="3">Search Word</th>
+                </tr>
+                <tr>
+                    <td>Enter Word:</td>
+                    <td><input type="text" id="search_word"></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="center"><button onclick="searchWord();">Search</button></td>
+                </tr>
+            </table>
+            <br /><br />
+            <p id="res_desc"></p>
+        </fieldset>
+    </div>
+
+</body>
+</html>

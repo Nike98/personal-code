@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Status</title>
+    <script src="app.js"></script>
+</head>
+<body onload="action()">
+    <h1 align="center">Login Form</h1>
+    <div id="mainForm" align="center">
+        <table cellpadding="5" style="border: 1px solid black;">
+            <tr>
+                <td id="question"></td>
+            </tr>
+            <tr>
+                <td><input type="text" id="ans"></td>
+            </tr>
+            <tr>
+                <td align="center"><button onclick="next_question()">Next</button></td>
+            </tr>
+        </table>
+        <br /><br />
+        <b id="progress_msg"></b>
+        <progress id="prog" value="0" max="100"></progress>
+    </div>
+    <div id="msg" align="center" style="visibility: hidden;">
+        <h3 style="color: green; margin-top: -150px;">Form Completed Successfully</h3>
+    </div>
+</body>
+</html>

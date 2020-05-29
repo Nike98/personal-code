@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Website Login</title>
+    <script type="text/javascript">
+        function validateLogin() {
+            var xhttp = new XMLHttpRequest();
+            var uname = document.getElementById("uname").value;
+            var pass = document.getElementById("pass").value;
+            document.getElementById("msg").innerHTML = "";
+
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200){
+                    if (uname === "User1" && pass === "userpass"){
+                        document.getElementById("msg").style.color = "green";
+                        document.getElementById("msg").innerHTML = "Login Successful! Hello <b>" + uname + "</b>"
+                    }
+                    else {
+                        document.getElementById("msg").style.color = "red";
+                        document.getElementById("msg").innerHTML = "Invalid Username or Password";
+                    }
+                }
+                else
+                    console.log("Error", xhttp.status);
+            };
+            xhttp.open("GET", "login.html", true);
+            xhttp.send();
+        }
+    </script>
+</head>
+<body>
+    <div align="center">
+        <fieldset style="margin-top: 300px; margin-left: 800px; margin-right: 800px;">
+            <legend>Login</legend>
+            <table>
+                <tr>
+                    <td><b>Username: </b></td>
+                    <td>&emsp;</td>
+                    <td><input type="text" id="uname"></td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <td><b>Password: </b></td>
+                    <td>&emsp;</td>
+                    <td><input type="password" id="pass"></td>
+                </tr>
+                <tr><td>&nbsp;</td></tr>
+                <tr>
+                    <td colspan="3" align="center"><button onclick="validateLogin()">Login</button></td>
+                </tr>
+            </table>
+            <br />
+            <span id="msg"></span>
+        </fieldset>
+    </div>
+</body>
+</html>

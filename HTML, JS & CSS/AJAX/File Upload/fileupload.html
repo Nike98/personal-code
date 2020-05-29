@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="app.js"></script>
+    <title>AJAX | File Upload</title>
+</head>
+<body>
+    <h3>File Upload Using AJAX</h3>
+    <form method="post" enctype="multipart/form-data">
+        Select the file to upload:
+        <input type="file" name="file" id="file" style="margin-left: 30px;">
+        <br /><br />
+        <input type="button" value="Upload" name="submit" onclick="fileUpload()">
+        <progress id="progressBar" value="0" max="100" style="width: 300px;"></progress>
+    </form>
+    <br /><br />
+    <p>
+        <b>Status:</b>
+        <span id="status" style="margin-left: 30px;"></span>
+    </p>
+</body>
+</html>
