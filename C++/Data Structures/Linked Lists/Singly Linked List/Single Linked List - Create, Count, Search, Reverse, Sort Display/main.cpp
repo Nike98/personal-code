@@ -11,21 +11,6 @@
  */
 ///
 
-/**
-
-    Issues in the program:
-
-    1. After performing the the search operation on 1 element it tells the position correctly,
-        but after finding other elements(which do come correct), if we try to find the first element
-        again, the programs gives out the position of the last element that it found. This issue
-        happens only when finding the first element when there are more than one elements in the list.
-
-    2. The program unexpectedly ends after performing the sort() function. The same problem happens
-        when tried to reverse the list. Even tried using the display() function after sort()l in the
-        switch case itself but did not work.
-
-*/
-
 #include<iostream>
 #include<stdlib.h>
 
@@ -70,7 +55,7 @@ void create_node()
 
 void search()
 {
-    int value, flag = 0, counter;
+    int value, flag = 0, pos;
 
     if (start == NULL)
         cout << "\n\n LIST EMPTY\n";
@@ -78,17 +63,19 @@ void search()
         cout << "\n\n Enter the value to be Searched in the list : ";
         cin >> value;
 
-        counter = 0;
+        pos = 0;
         for (temp = start; temp != NULL; temp = temp->next){
-            if (temp->data == value)
+            if (temp->data == value){
                 flag = 1;
-            counter++;
+                break;
+            }
+            pos++;
         }
 
         if (flag == 0)
             cout << "\n\n The requested data was not found the list.\n";
         else
-            cout << "\n\n The requested data was found at " << counter << " position in the list.\n";
+            cout << "\n\n The requested data was found at " << pos+1 << " position in the list.\n";
     }
 }
 
@@ -104,7 +91,7 @@ void sort(struct node *start)
             ptr = start;
 
             while (ptr != NULL){
-                if (ptr->data > ptr->next->data){
+                if (ptr->data > (ptr->next)->data){
                     swap(ptr, ptr->next);
                     swapped = 1;
                 }
@@ -124,12 +111,12 @@ void reverse()
 
     while (ptr != NULL){
         next = ptr->next;
-        temp->next = prev;
-        prev = temp;
-        temp = next;
+        ptr->next = prev;
+        prev = ptr;
+        ptr = next;
     }
     start = prev;
-    cout << "\n\n List Reversed Successfully\n";
+    cout << "\n\n List Reversed Successfully.\n";
 }
 
 void display()
@@ -172,7 +159,6 @@ int main()
             break;
         case 4:
             sort(start);
-            //display();
             break;
         case 5:
             reverse();
@@ -184,58 +170,3 @@ int main()
     } while (choice < 7);
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
