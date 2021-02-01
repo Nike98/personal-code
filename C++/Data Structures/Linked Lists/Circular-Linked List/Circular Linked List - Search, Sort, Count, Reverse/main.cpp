@@ -2,12 +2,12 @@
 /**
  *      WAP to implement Circular Linked List for the
  *      following operations:
- *      1. Create
- *      2. Search for a Node
- *      3. Count
- *      4. Reverse the list
- *      5. Sort the data
- *      6. Display
+ *          1. Create
+ *          2. Search for a Node
+ *          3. Count
+ *          4. Reverse the list
+ *          5. Sort the data
+ *          6. Display
  */
 ///
 
@@ -22,6 +22,14 @@ struct node
     int data;
     node *next;
 } *start, *prev, *temp, *ptr;
+
+// For Swapping the elements
+void swap(struct node *a, struct node *b)
+{
+    int _temp = a->data;
+    a->data = b->data;
+    b->data = _temp;
+}
 
 void create_node()
 {
@@ -53,7 +61,7 @@ void search()
     if (start == NULL)
         cout << "\n\n Cannot Search data in an Empty list." << endl;
     else {
-        int value, flag = 0, pos = 0;
+        int value, flag = 0, pos = 1;
         cout << "\n\n Enter the value to be searched in the list: ";
         cin >> value;
 
@@ -64,13 +72,38 @@ void search()
                 break;
             }
             pos++;
+            temp = temp->next;
         }
 
         if (flag)
             cout << "\n\n The value " << value << " was found at "
-                 << pos << " position in the list." << endl;
+                 "position " << pos << "in the list." << endl;
         else
-            cout << "\n\n The requested data was not found in the list." << endl
+            cout << "\n\n The requested data was not found in the list." << endl;
+    }
+}
+
+void sort(struct node *start)
+{
+    int swapped;
+
+    if (start == NULL)
+        cout << "\n\n LIST EMPTY \n";
+    else {
+        do {
+            swapped = 0;
+            ptr = start;
+
+            while (ptr->next != start) {
+                if (ptr->data > (ptr->next)->data) {
+                    swap(ptr, ptr->next);
+                    swapped = 1;
+                }
+                ptr = ptr->next;
+            }
+            ptr = NULL;
+        } while (swapped);
+        cout << "\n\n List Sorted Successfully.\n";
     }
 }
 
@@ -133,10 +166,10 @@ int main()
             cout << "\n\n The total number of nodes in the list is: " << count << endl;
             break;
         case 3:
-            //search();
+            search();
             break;
         case 4:
-            //sort(start);
+            sort(start);
             break;
         case 5:
             reverse();
