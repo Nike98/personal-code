@@ -9,7 +9,7 @@
  SET SERVEROUTPUT ON;
  SET VERIFY OFF;
  
-	-- Creating the FUNCTION
+ -- Creating the FUNCTION
  CREATE OR REPLACE FUNCTION square_num(num in number) return number 
  AS
  BEGIN
@@ -19,16 +19,16 @@
  END;
  /
  
-	-- Calling the FUNCTION
-DECLARE
-
-	n number := &n;
-
-BEGIN
-
-	dbms_output.put_line(chr(10) || '==================================');
-	dbms_output.put_line(chr(13) || ' Square of ' || n || ' enetered: ' || square_num(n));
-	dbms_output.put_line(chr(13) || '==================================');
-
-END;
-/
+ -- Calling the FUNCTION
+ DECLARE
+ 
+ 	n number := &n;
+ 
+ BEGIN
+ 
+ 	dbms_output.put_line(chr(10) || '==================================');
+ 	dbms_output.put_line(chr(13) || ' Square of ' || n || ' is: ' || square_num(n));
+ 	dbms_output.put_line(chr(13) || '==================================');
+ 
+ END;
+ /
