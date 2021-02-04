@@ -2,10 +2,10 @@
  * ############################################################################
  * ############################################################################
  * 
- * 	     This program here is to demonstrate the use of the
- * 			String.Length function.
+ * 			This program here is to demonstrate the use of the
+ * 						String.Length function.
  * 
- * 	   This function is used to derive the length of a String.
+ * 		  This function is used to derive the length of a String.
  * 
  * ############################################################################
  * ############################################################################

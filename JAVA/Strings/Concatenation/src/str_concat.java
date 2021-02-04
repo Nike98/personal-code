@@ -2,15 +2,15 @@
  * ############################################################################
  * ############################################################################
  * 
- * 		This program is to demonstrate the idea of 
- * 		          Concatenating a String.
+ * 				This program is to demonstrate the idea of 
+ * 							Concatenating a String.
  * 
- *                 Concatenating a String means joining
- * 		      one string to another string.
+ * 					Concatenating a String means joining
+ * 						one string to another string.
  * 
- *       There are 2 ways of concatenating a string :
- *             1. using the '.concat();' with the string or string object
- * 	       2. using the concatenating symbol '+'.
+ * 		There are 2 ways of concatenating a string :
+ * 			1. using the '.concat();' with the string or string object
+ * 			2. using the concatenating symbol '+'.
  * 
  * ############################################################################
  * ############################################################################
